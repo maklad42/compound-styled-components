@@ -1,8 +1,6 @@
 {
   "extends": [
-    "airbnb",
-    "prettier",
-    "prettier/react"
+    "airbnb"
   ],
   "parser": "babel-eslint",
   "parserOptions": {
@@ -70,6 +68,7 @@
     "jsx-a11y/accessible-emoji": 0,
     "react/require-default-props": 0,
     "react/jsx-props-no-spreading": 0,
+    "object-curly-newline": "off",
     "react/jsx-filename-extension": [
       1,
       {
@@ -79,7 +78,6 @@
         ]
       }
     ],
-    "radix": 0,
     "no-shadow": [
       2,
       {
