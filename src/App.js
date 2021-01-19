@@ -6,7 +6,9 @@ function App() {
   return (
     <main>
       {movies.map((movie) => (
-        <Card className="mr" />
+        <Card className="mr">
+          <Card.Image src={movie.image} alt={movie.title} />
+        </Card>
       ))}
     </main>
   );
